@@ -8,96 +8,87 @@ national_resources:
     description: Chipster is a user-friendly analysis software for high-throughput data such as RNA-seq and single cell RNA-seq. It contains analysis tools and a large reference genome collection.
     how_to_access: 
     related_pages:
-      tool_assembly: [CSC]
-      your_role: [researcher, IT support]
-      your_tasks: [data analysis]
+      tool_assembly: [csc]
+      your_role: [researcher, research_software_engineer]
+      your_tasks: [data_analysis]
     url: https://chipster.csc.fi/
   - name: DMPTuuli
-    description: Data management planning tool (Finland)
-    instance_of: DMPRoadmap
+    description: Data management planning tool (Finland).
+    instance_of: dmproadmap
     how_to_access: 
     related_pages:
-      tool_assembly: [CSC]
-      your_role: [researcher, data manager]
-      your_tasks: [DMP]
+      tool_assembly: [csc]
+      your_role: [researcher, data_steward]
+      your_tasks: [dmp]
     url: https://www.dmptuuli.fi/
   - name: Fairdata.fi
     description: With the Fairdata Services you can store, share and publish your research data with easy-to-use web tools.
     instance_of: 
     how_to_access: 
     related_pages:
-      tool_assembly: [CSC]
-      your_role: [researcher, data manager]
-      your_tasks: [storage, data publication, existing data]
+      tool_assembly: [csc]
+      your_role: [researcher, data_steward]
+      your_tasks: [storage, data_publication, existing_data]
     url: https://research.csc.fi/-/fairdata-services
   - name: Federated EGA Finland
-    description: FEGA allows you to store and shaare sensitive data in Finland in a way that fulfils all the requirements of the General Data Protection Regulation (GDPR). 
-    instance_of: 
-    how_to_access: 
+    description: FEGA allows you to store and share sensitive data in Finland in a way that fulfils all the requirements of the General Data Protection Regulation (GDPR). 
+    instance_of: the-european-genome-phenome-archive 
+    how_to_access:
     related_pages:
-      tool_assembly: [CSC]
-      your_role: [researcher, data manager]
-      your_tasks: [sensitive, data publication, existing data]
-      your_domain: [human data]
+      tool_assembly: [csc]
+      your_role: [researcher, data_steward]
+      your_tasks: [sensitive, data_publication, existing_data]
+      your_domain: [human_data]
     url: https://research.csc.fi/-/fega
   - name: Findata
     description: The Health and Social Data Permit Authority. Findata offers services and enables secure and efficient utilisation of data materials containing health and social data.
     instance_of: 
     how_to_access: 
     related_pages:
-      tool_assembly: [CSC]
-      your_role: [researcher, data manager]
-      your_tasks: [sensitive, existing data]
-      your_domain: [human data]
+      tool_assembly: [csc]
+      your_role: [researcher, data_steward]
+      your_tasks: [sensitive, existing_data]
+      your_domain: [human_data]
     url: https://findata.fi/en/
   - name: Fingenious
     description: Finnish Biobank Cooperative (FINBB) connects researchers to Finnish biomedical research. Via Fingenious® services the researcher can connect to all Finnish public bio banks.
     instance_of: 
     how_to_access: 
     related_pages:
-      tool_assembly: [CSC]
-      your_role: [researcher, data manager]
+      tool_assembly: [csc]
+      your_role: [researcher, data_steward]
       your_tasks: [sensitive]
-      your_domain: [human data]
+      your_domain: [human_data]
     url: https://site.fingenious.fi/en/
   - name: Sensitive Data Services for Research
-    description: CSC Sensitive Data Services for Research are designed to support secure sensitive data management through web-user interfaces accessible from the user's own computer
+    description: CSC Sensitive Data Services for Research are designed to support secure sensitive data management through web-user interfaces accessible from the user's own computer.
     instance_of: 
     how_to_access: 
     related_pages:
-      tool_assembly: [CSC]
-      your_role: [researcher, data manager]
-      your_tasks: [sensitive, data analysis, storage, data publication]
-      your_domain: [human data]
+      tool_assembly: [csc]
+      your_role: [researcher, data_steward]
+      your_tasks: [sensitive, data_analysis, storage, data_publication]
+      your_domain: [human_data]
     url: https://research.csc.fi/sensitive-data-services-for-research
   - name: High performance computing
     description: CSC Supercomputers Puhti, Mahti and LUMI performance ranges from medium scale simulations to one of the most competitive supercomputers in the world.
     instance_of: 
     how_to_access: 
     related_pages:
-      tool_assembly: [CSC]
-      your_role: [researcher, data manager]
-      your_tasks: [data analysis]
+      tool_assembly: [csc]
+      your_role: [researcher, data_steward]
+      your_tasks: [data_analysis]
     url: https://research.csc.fi/computing#high-performance-computing
   - name: Cloud computing
     description: "CSC offers a variety of cloud computing services: the Pouta IaaS services and the Rahti container cloud service."
     instance_of: 
     how_to_access: 
     related_pages:
-      tool_assembly: [CSC]
-      your_role: [researcher, data manager]
-      your_tasks: [data analysis]
+      tool_assembly: [csc]
+      your_role: [researcher, data_steward]
+      your_tasks: [data_analysis]
     url: https://research.csc.fi/computing#cloud-computing 
-  - name: IceBear
-    description: A browser-based Research Data Management tool for protein cyrstallization that offers flexible crystal fishing workbench, no-typing submission for crystal shipment, and linking crystals and datasets including PDB depositions. 
-    instance_of: 
-    how_to_access: 
-    related_pages:
-      tool_assembly:
-      your_role: [researcher, data manager]
-      your_tasks: [data analysis]
-      your_domain: [structural_bioinformatics]
-    url: https://icebear.fi/
+
 ---
 
 ## Introduction 
@@ -118,7 +109,7 @@ Ethical review is needed in defined research configurations. See more at [Finnis
 [Policies of open science and research in Finland](https://avointiede.fi/en/policies/policies-open-science-and-research-finland) outline in detail the strategic principles, objectives and action plans necessary to achieve the objectives set out in [the Declaration for Open Science and Research](https://avointiede.fi/en/policies/declaration-open-science-and-research-2020-2025). The policies cover four areas: culture for open scholarship, open access to scholarly publications, open access of research data and methods, and open education and open access to educational resources. 
 
 ### Funder policies 
-Funders have their individual data policies and mandatory guidelines with regard to research data management. The general expectation is that publicly funded research data are a public good, and should be made openly available with as few restrictions as possible. Check your funder’s website for current information and guidance. See e.g. [Academy of Finland policies on open science](https://www.aka.fi/en/research-funding/responsible-science/open-science/academy-policies-on-open-science/).
+Funders have their individual data policies and mandatory guidelines with regard to research data management. The general expectation is that publicly funded research data are a public good, and should be made openly available with as few restrictions as possible. Check your funder’s website for current information and guidance. See e.g. [Research Council of Finland policies on open science](https://www.aka.fi/en/research-funding/responsible-science/open-science/academy-policies-on-open-science/).
 
 ### Institutional policies
 Universities and other research organisations and data service providers have data policies describing the principles and policies that are related to the management of research data [(e.g CSC Data Policy)](https://www.csc.fi/en/data-policy). In addition, data policies make clear the responsibilities of the organisation and its researchers for managing research data well. Remember to check your organisation's current information and guidance.

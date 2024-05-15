@@ -52,7 +52,7 @@ As such, we do not tolerate behaviour that is disrespectful to our community mem
 We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to: gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.
 
 Everyone who participates in the RDMkit activities is required to conform to this Code of Conduct.
-This Code of Conduct applies to all spaces managed by the Turing Way project including, but not limited to, in person focus groups and workshops, and communications online via GitHub.
+This Code of Conduct applies to all spaces managed by the RDMkit including, but not limited to, in person focus groups and workshops, and communications online via GitHub.
 By participating, contributors indicate their acceptance of the procedures by which the RDMkit project core development team resolves any Code of Conduct incidents, which may include storage and processing of their personal information.
 
 ### 2.1 Expected behaviour
@@ -179,7 +179,7 @@ Possible responses may include:
   The committee may choose to publish this message elsewhere for posterity.
 * An imposed "time out" from online spaces.
   Niklas Blomberg will communicate this "time out" to the individual(s) involved.
-* A permanent or temporary ban from some or all RDMkit spaces (GitHub, in-person events etc).
+* A permanent or temporary ban from some or all RDMkit spaces (GitHub, in-person events, etc.).
   The research team will maintain records of all such bans so that they may be reviewed in the future, extended to a Code of Conduct safety team as it is built, or otherwise maintained.
   If a member of the community is removed from an event they will not be reimbursed for any part of the event that they miss.
 

@@ -12,24 +12,22 @@
 
 Bert Droesbeke:
     git: bedroesb
-    email: bedro@psb.ugent.be
+    email: bert.droesbeke@vib.be
     orcid: 0000-0003-0522-5674
     role: editor
-    affiliation: VIB-UGent / ELIXIR-BE
+    affiliation: VIB Data Core / ELIXIR-BE
 Flora D'Anna:
     git: floradanna
     orcid: 0000-0003-4665-6673
     role: editor
-    affiliation: VIB-UGent / ELIXIR-BE
+    affiliation: VIB Data Core / ELIXIR-BE
 Daniel Faria:
     git: DanFaria
-    role: editor
     orcid: 0000-0003-1511-277X
     affiliation: University of Lisbon / ELIXIR-PT
 Pinar Alper:
     git: pinarpink
     orcid: 0000-0002-2224-0780
-    role: editor
     affiliation: LCSB / ELIXIR-LU
 Carole Goble:
     git: CaroleGoble
@@ -44,8 +42,8 @@ Frederik Coppens:
     git: frederikcoppens
     role: lead
     orcid: 0000-0001-6565-5145
-    email: frederik.coppens@psb.vib-ugent.be
-    affiliation: VIB-UGent / ELIXIR-BE
+    email: frederik.coppens@vib.be
+    affiliation: VIB Data Core / ELIXIR-BE
 Mijke Jetten:
     git: MijkeJetten
     email: m.jetten@dtls.nl
@@ -65,7 +63,6 @@ Rob Hooft:
     git: rwwh
     email: rob.hooft@dtls.nl
     orcid: 0000-0001-6825-9439
-    role: editor
 Karel Berka:
     git: KarelBerka
     email: karel.berka@upol.cz
@@ -103,7 +100,6 @@ Niclas Jareborg:
     git: nicjar
     email: niclas.jareborg@nbis.se
     orcid: 0000-0002-4520-044X
-    role: editor
     affiliation: NBIS / ELIXIR-SE
 Elin Kronander:
     git: elinkronander
@@ -129,6 +125,7 @@ Ivan Mičetić:
     git: ivanmicetic
     email: ivan.micetic@unipd.it
     orcid: 0000-0003-1691-8425
+    affiliation: University of Padua / ELIXIR-IT
 Robert Andrews:
     git: robertmand
     email: andrewsr9@cardiff.ac.uk
@@ -155,7 +152,7 @@ Emma Karoune:
 Graham Parton:
     git: gap736uk
     orcid: 0000-0003-4157-0352
-    affiliation: Science and Technology Facilities Council (STFC), UKRI
+    affiliation: Science and Technology Facilities Council (STFC) / UKRI
 Minna Ahokas:
     git: minnami
     email: minna.ahokas@csc.fi
@@ -172,6 +169,7 @@ Federico Bianchini:
     email: federico.bianchini@mn.uio.no
     orcid: 0000-0002-9016-4820
     role: editor
+    affiliation: University of Oslo / ELIXIR-NO
 Celia van Gelder:
     git: celiavg
     email: celia.vangelder@dtls.nl
@@ -218,7 +216,9 @@ Anne-Françoise Adam-Blondon:
     affiliation: INRAE / ELIXIR-FR
 Nazeefa Fatima:
     git: Nazeeefa
+    orcid: 0000-0001-7791-4984
     role: editor
+    affiliation: Centre for Bioinformatics, University of Oslo / ELIXIR-NO
 Ernesto Picardi:
     email: ernesto.picardi@uniba.it
     orcid: 0000-0002-6549-0114
@@ -236,7 +236,6 @@ Alan R Williams:
     orcid: 0000-0003-3156-2105
     affiliation: The University of Manchester / ELIXIR-UK
 Chris Child:
-    git: christopherchild
     orcid: 0000-0003-0758-6908
     affiliation: The University of Manchester / ELIXIR-UK
 Olivier Collin:
@@ -256,7 +255,6 @@ Muhammad Shoaib:
 Xinhui Wang:
     orcid : 0000-0001-8697-4209
     email : xinhui.wang@uni.lu
-    git: xinhui.wang
     affiliation: LCSB
 Soumyabrata Ghosh:
     orcid: 0000-0003-0659-6733
@@ -323,6 +321,7 @@ Nadim Rahman:
 Rafael Andrade Buono:
     orcid: 0000-0002-6675-3836
     git: rabuono
+    affiliation: VIB Data Core / ELIXIR-BE
 Sebastian Beier:
     git: sebeier
     orcid: 0000-0002-2177-8781
@@ -371,12 +370,29 @@ Anastasis Oulas:
     email: anastasioso@cing.ac.cy
     git: aoulas
     affiliation: Cyprus Institute of Neurology & Genetics (CING)
-Heleri Inno: 
+Nestoras Karathanasis:
+    orcid: 0000-0003-4119-0851
+    email: nestorask@cing.ac.cy
+    git: NestorasK
+    affiliation: Cyprus Institute of Neurology & Genetics (CING)
+George Spyrou:
+    orcid: 0000-0002-2470-3363
+    email: georges@cing.ac.cy
+    affiliation: Cyprus Institute of Neurology & Genetics (CING)
+Vasilis Promponas:
+    orcid: 0000-0003-3352-4831
+    email: vprobon@ucy.ac.cy
+    affiliation: University of Cyprus (UCY)
+Nicolas Kylilis:
+    orcid: 0000-0001-7202-4827
+    email: kylilis.nicolas@ucy.ac.cy
+    affiliation: University of Cyprus (UCY)
+Heleri Inno:
     git: heleriinno
     email: heleri.inno@ut.ee
     orcid: 0000-0003-2043-0772
-    affiliation: University of Tartu / ELIXIR-EE   
-Jorge Oliveira: 
+    affiliation: University of Tartu / ELIXIR-EE
+Jorge Oliveira:
     git: BioDataAdmin
     email: jorge.oliveira@tecnico.ulisboa.pt
     orcid: 0000-0001-6425-2176
@@ -393,7 +409,7 @@ Marco Carraro:
     git: marcocarraro
     email: marco.carraro.1@unipd.it
     orcid: 0000-0003-0770-1822
-Evangelos Pafilis: 
+Evangelos Pafilis:
     git: evangelospafilis
     orcid: 0000-0001-5079-0125
     affiliation: Institute of Marine Biology Biotechnology and Aquaculture / Hellenic Centre for Marine Research / ELIXIR-GR
@@ -430,7 +446,7 @@ Carla Cummins:
     orcid: 0000-0002-5394-8896
     affiliation: EMBL-EBI
 Philip van Damme:
-    git: PhilipvD 
+    git: PhilipvD
     email: p.vandamme@amsterdamumc.nl
     orcid: 0000-0002-7124-8949
     affiliation: Amsterdam UMC
@@ -457,9 +473,169 @@ Isabelle Alic:
 Marek Suchánek:
     git: MarekSuchanek
     orcid: 0000-0001-7525-9218
-    affiliation: DSW / CTU in Prague / ELIXIR-CZS
+    affiliation: CTU in Prague / IOCB Prague / ELIXIR-CZ
 Matthias Lange:
     git: langeipk
     orcid: 0000-0002-4316-078X
     email: lange@ipk-gatersleben.de
     affiliation: IPK-Gatersleben
+Aneas Hodselmans:
+    git:
+    orcid: 0000-0002-2924-918X
+    email: a.w.hodselmans@rug.nl
+    affiliation: University of Groningen
+Marije van der Geest:
+    git:
+    orcid: 0000-0002-1919-6547
+    email: m.a.van.der.geest@umcg.nl
+    affiliation: University Medical Center Groningen
+Teresa D'Altri:
+    git: TeresaDAltri
+    orcid: 0000-0002-8146-5365
+    affiliation: Center for Genomic Regulation
+Marina Popleteeva:
+    git: marikapop
+    orcid: 0000-0002-8409-6147
+    email: marina.popleteeva@uni.lu
+    affiliation: Luxembourg Centre for Systems Biomedicine, University of Luxembourg
+    role: editor
+Vilem Ded:
+    git: vildead
+    orcid: 0000-0001-9235-8496
+    email: vilem.ded@uni.lu
+    affiliation: Luxembourg Centre for Systems Biomedicine, University of Luxembourg
+Sven Twardziok:
+    git: svedziok
+Erin Calhoun:
+    git: erincalhoun
+    orcid: 0009-0003-3752-7156
+    email: erin.calhoun@uit.no
+    affiliation: UiT The Arctic University of Norway / ELIXIR-NO
+Naeem Muhammad:
+    git: naeemmuhammad
+    orcid: 0000-0003-4475-0164
+    email: naeem.muhammad@kuleuven.be
+    affiliation: KU Leuven University
+Siobhan Cleary:
+    git: clearysi
+    orcid: 0009-0008-0778-0130
+    email: siobhan.cleary@ucd.ie
+    affiliation: University College Dublin / ELIXIR-IE
+Brane Leskošek:
+    git: brane007
+    orcid: 0000-0001-5202-2349
+    email: brane.leskosek@mf.uni-lj.si
+    affiliation: University of Ljubljana, Medical Faculty / ELIXIR-SI
+Marko Vidak:
+    git: marko-whatever
+    orcid: 0000-0001-7901-3936
+    email: marko.vidak@mf.uni-lj.si
+    affiliation: University of Ljubljana, Medical Faculty / ELIXIR-SI
+Nadja Žlender:
+    git: nadja-zlender
+    orcid: 0000-0001-5913-5530
+    email: nadja.zlender@mf.uni-lj.si
+    affiliation: University of Ljubljana, Medical Faculty / ELIXIR-SI
+Dirk Winkelhardt:
+    git: di-hardt
+    orcid: 0000-0001-8770-2221
+    email: dirk.winkelhardt@rub.de
+    affiliation: Ruhr-Universität Bochum, Medzinisches Proteom-Center & ELIXIR Germany Forschungszentrum Jülich
+Carolina Simón Guerrero:
+    git: csimong
+    email: carolina.simon@cnb.csic.es
+    orcid: 0000-0002-0735-4317
+    affiliation: INSTRUCT-ERIC / National Center for Biotechnology (CNB-CSIC)
+Anamika Chatterjee:
+    git: anamikachatterjee
+    orcid: 0000-0002-3215-7163
+    email: anamika.chatterjee@ntnu.no
+    affiliation: Norwegian University of Science and Technology / Centre for Digital Life Norway
+Polonca Ferk:
+    orcid: 0000-0002-4541-3648
+    email: polonca.ferk@mf.uni-lj.si
+    affiliation: UL / ELIXIR-SI
+Gil Poiares-Oliveira:
+    git: GilOliveira
+    orcid: 0000-0003-4638-2879
+    email: gpo@biodata.pt
+    affiliation: INESC-ID / BioData.pt / ELIXIR-PT
+    role: editor
+Uladzislau Vadadokhau:
+    git: uladzislau21
+    email: uladzislau.vadadokhau@med.unideb.hu
+    orcid: 0000-0003-3773-7746
+    affilation: University of Debrecen, Proteomics Core Facility
+Fotis Psomopoulos:
+    git: fpsom
+    orcid: 0000-0002-0222-4273
+    email: fpsom@certh.gr
+    affiliation: Institute of Applied Biosciences(INAB|CERTH) / ELIXIR-GR 
+Styliani-Christina Fragkouli:
+    git: sfragkoul
+    orcid: 0000-0003-4067-7123
+    email: sfragkoul@certh.gr
+    affiliation: Institute of Applied Biosciences(INAB|CERTH) / University of Athens / ELIXIR-GR
+Sveinung Gundersen:
+    git: sveinugu
+    orcid: 0000-0001-9888-7954
+    email: sveinugu@ifi.uio.no
+    affiliation: ELIXIR Norway  
+Diana Pilvar:
+    git: diana-pilvar
+    email: diana.pilvar@ut.ee
+    orcid: 0000-0002-5788-2687
+    affiliation: University of Tartu / ELIXIR-Estonia
+    role: editor
+Johan Rollin:
+    git: johrollin
+    email: johan.rollin@anat.uni-freiburg.de
+    orcid: 0000-0002-9564-7872
+    affiliation: University of Freiburg / MeInBio program
+Mehmet Tekman:
+    git: mtekman
+    email: tekman@informatik.uni-freiburg.de
+    orcid: 0000-0002-4181-2676
+    affiliation: University of Freiburg / European Galaxy team
+Pavankumar Videm:
+    git: pavanvidem
+    email: videmp@informatik.uni-freiburg.de
+    orcid: 0000-0002-5192-126X
+    affiliation: University of Freiburg / European Galaxy team
+Edward Parkinson:
+    git: parkyed
+    orcid: 0009-0006-4552-9495
+    affiliation: Cardiff University
+Adriano Fonzino:
+    git: F0nz0
+    orcid: 0009-0009-3325-8554
+    affiliation: University of Bari
+Tim Beck:
+    git: tb143
+    email: tim.beck@nottingham.ac.uk
+    orcid: 0000-0002-0292-7972
+    affiliation: University of Nottingham
+Marcus Buchwald:
+    email: marcus.buchwald@uni-heidelberg.de 
+    affiliation: Heidelberg University 
+Philip Quinlan:
+    email: philip.quinlan@nottingham.ac.uk
+    affiliation: University of Nottingham
+Jan Willem Boiten:
+    email: janwillem.boiten@lygature.org
+    affiliation: Lygature 
+Patrick Ruch:
+    email: patrick.ruch@hesge.ch
+    affiliation: Swiss Institute of Bioinformatics 
+Hindrik Kerstens:
+    email: H.H.D.Kerstens-2@prinsesmaximacentrum.nl
+    affiliation: Wageningen University
+Salvador Capella-Gutierrez:
+    email: salvador.capella@bsc.es 
+    affiliation: Barcelona Supercomputing Centre (BSC) 
+Magda Chegkazi:
+    email: magda.chegkazi@elixir-europe.org 
+    affiliation: ELIXIR 
+Arshiya Merchant:
+    email: arshiya.merchant@elixir-europe.org
+    affiliation: ELIXIR 
