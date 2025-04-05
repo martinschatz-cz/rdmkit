@@ -48,6 +48,8 @@
 }
 
 #main {
+    min-height: 100vh;
+
     h2,
     .h2-like {
         font-weight: 600;
@@ -92,17 +94,7 @@
 
 /* -----Homepage----- */
 
-.landingpage {
-    .h-icon-6 {
-        height: 6em;
-    }
-    .h-icon-5 {
-        height: 5em;
-    }
-    .h-icon-4 {
-        height: 4em;
-    }
-
+.landingpage, .ways-to-contribute  {
     .card {
         &:hover {
             box-shadow: $box-shadow;
@@ -129,6 +121,21 @@
         font-weight: 600;
         font-family: $font-family-theme;
     }
+}
+
+// Icon sizing
+
+.h-icon-8 {
+    height: 8em;
+}
+.h-icon-6 {
+    height: 6em;
+}
+.h-icon-5 {
+    height: 5em;
+}
+.h-icon-4 {
+    height: 4em;
 }
 
 // Search box
@@ -164,6 +171,11 @@ section#search-section {
     }
 }
 
+#search-label-tiles {
+    background-color: $light;
+}
+
+
 /*-----Top navigation-----*/
 
 .navbar-nav .nav-item > a {
@@ -174,24 +186,69 @@ section#search-section {
     }
 }
 
-/*-----Accordion styles-----*/
-
-// Add a bottom border to the last accordion.
-a.info-collapse[aria-expanded="false"]:last-of-type, 
-a.info-collapse[aria-expanded="true"]:last-of-type + .show {
-    border-bottom: 1px solid $border-color;
+/*-----Better tools-----*/
+.tool {
+    border-radius: 1rem;
+    padding-right: 0.5rem;
 }
 
-// Remove border hover effect.
-.info-collapse:hover, .info-collapse[aria-expanded="true"] {
-    border-color: $border-color !important;
+/*-----New Icons-----*/
+
+// Calender
+i.far.fa-calendar {
+    background: url("../img/section-icons/calendar.svg") center no-repeat;
+    width: 17px;
+    height: 17px;
+    margin-bottom: -2px;
+    &:before {
+        content: "";
+    }
 }
 
-// Add hover effect to accordion header text.
-a.info-collapse h3 {
-    transition: color .2s ease-in-out;
+i.fa-solid.fa-map-marker-alt {
+    background: url("../img/section-icons/pin.svg") center no-repeat;
+    width: 17px;
+    height: 17px;
+    margin-bottom: -2px;
+    &:before {
+        content: "";
+    }
 }
 
-a.info-collapse:hover h3 {
-    color: rgba($link-color, .8) !important;
+// Fork
+i.fa-solid.fa-code-branch {
+    background: url("../img/section-icons/git.svg") center no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-bottom: -2.5px;
+    &:before {
+        content: "";
+    }
+}
+
+// Search
+nav #search-label,
+.landingpage #search-label,
+nav #search-input {
+    background-color: $white;
+}
+i.fa-solid.fa-magnifying-glass {
+    background: url("../img/section-icons/search.svg") center no-repeat;
+    width: 30px;
+    height: 30px;
+    &:before {
+        content: "";
+    }
+}
+
+// Tool snippet
+
+i.fa-solid.fa-wrench {
+    background: url("../img/section-icons/info2.svg") center no-repeat;
+    &:before {
+        content: "";
+    }
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-bottom: -0.25rem;
 }
